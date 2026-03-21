@@ -1,0 +1,19 @@
+﻿# Python 
+__pycache__/
+*.pyc
+.venv/
+
+# dbt
+target/
+dbt_packages/
+
+# VS Code
+.vscode/
+
+# Docker / Logs / Env
+**/.env
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
