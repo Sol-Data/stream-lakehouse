@@ -88,6 +88,8 @@ services:
         volumes:
             - spark-apps:/opt/bitnami/spark/app
             - spark-logs:/opt/bitnami/spark/logs
+            - ../services/spark-apps:/opt/spark/work-dir/app
+            - ../data:/data
         networks: [lakehouse-net]
         restart: unless-stopped
 
