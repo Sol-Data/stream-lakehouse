@@ -17,3 +17,10 @@ dbt_packages/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local pipeline output (do NOT commit)
+data/
+
+# Spark / temp
+*.parquet
+*.crc
